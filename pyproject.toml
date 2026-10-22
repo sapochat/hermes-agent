@@ -398,7 +398,7 @@ hermes-acp = "acp_adapter.entry:main"
 # These are constraints, not overrides: incompatible parent caps fail resolution.
 constraint-dependencies = [
   "anyio>=4.14.2,<5",
-  "fsspec>=2026.6.0",
+  "fsspec>=2026.6.0,<2027",
   "h2>=4.4.1,<5",
   "hpack>=4.2.0,<5",
   "httpcore2>=2.12.0,<3",
